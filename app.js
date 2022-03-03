@@ -28,6 +28,10 @@ app.get("/reservas", (req, res) => {
 app.get("/detallesProducto", (req, res) => {
     res.render("detallesProducto");
 });
+
+app.get("/detalleProducto", (req, res) => {
+    res.render("detalleProducto");
+});
 // app.get("/producto/apaBusqueda", (req, res) => {
 //     res.render("buscarProducto");
 // });
