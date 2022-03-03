@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include ('./partials/head')%>
+
+        <style>
+            .container {
+                display: flex;
+                height: 100vh;
+            }
+            
+            .section {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 5%;
+                height: 85vh;
+                width: 100vw;
+                overflow: hidden;
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                transition: flex .4s ease;
+                position: relative;
+            }
+            
+            .section .overlay {
+                background-color: rgb(238, 7, 180);
+                width: 100%;
+                height: 90vh;
+                padding-top: 5vh;
+                position: absolute;
+                transition: background-color .8s ease;
+            }
+            
+            .textIndex {
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 400;
+                font-style: italic;
+            }
+            
+            .section .content {
+                z-index: 2;
+            }
+            
+            .section:hover {
+                flex: 2;
+            }
+            
+            .section:hover .overlay {
+                background-color: #cc249a;
+            }
+            
+            .apaColor {
+                color: #ffa4db;
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 700;
+                font-style: normal;
+            }
+            
+            #technology {
+                background-image: url(../images/index01.png);
+                background-position: cover;
+            }
+            
+            #marketing {
+                background-image: url(../images/index02.png);
+            }
+            
+            #advertising {
+                background-image: url(../images/index03.png);
+                background-position: cover;
+            }
+        </style>
+        <title>"BIEN VENIDOS!"</title>
+</head>
+
+
+<body class="bg-01">
+    <%- include ('./partials/navbar')%>
+        <section class="section">
+            <div class="container">
+                <div id="marketing" class="section">
+                    <div class="content">
+                        <h1 class="textIndex"><span class="apaColor">APA!</span><br/> indica </h1>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div id="technology" class="section">
+                    <div class="content">
+                        <h1 class="textIndex"><span class="apaColor">APA!</span><br/> nuevos socios</h1>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div id="advertising" class="section">
+                    <div class="content">
+                        <h1 class="textIndex"><span class="apaColor">APA!</span><br/> Login</h1>
+                    </div>
+                    <div class="overlay"></div>
+
+                </div>
+            </div>
+        </section>
+
+        <%- include ('./partials/footer')%>
+
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
