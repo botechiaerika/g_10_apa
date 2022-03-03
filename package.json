@@ -2,7 +2,8 @@
     "name": "g_10_apa",
     "description": "proyecto APA AFTER NIGHT",
     "version": "1.0.0",
-    "main": "app.js",
+    "main": "set.app('view engine', 'ejs')",
+
     "scripts": {
         "test": "npm run tests.js",
         "start": "nodemon app.js"
@@ -19,6 +20,7 @@
     },
     "homepage": "https://github.com/BotechiaErika/g_10_apa#readme",
     "dependencies": {
+        "ejs": "^3.1.6",
         "express": "^4.17.3",
         "nodemon": "^2.0.15",
         "normalize.css": "^8.0.1"

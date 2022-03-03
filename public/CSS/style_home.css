@@ -1,4 +1,4 @@
-.bg-01 {
+<style>.bg-01 {
     background: rgba(0, 0, 0, 0.459);
     background-image: url('https://i.ibb.co/mv4xY2k/bg01.jpg');
     background-repeat: repeat;
@@ -316,3 +316,5 @@ display: none;
     heightt: 50px;
     align-content: center;
 }
+
+</style>
