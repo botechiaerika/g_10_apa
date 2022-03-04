@@ -1,17 +1,16 @@
-const path = require('path');
-
-const controlador = {
+const mainRouter = require('/routes/mainRoutes/router')
+const controller = {
     index: (req, res) => {
-        res.render(path.resolve(__dirname, '../views/index.ejs'));
+        res.render('index')
     },
 
     home: (req, res) => {
-        res.render(path.resolve(__dirname, '...', '/views/home.ejs'));
+        res.render('home')
     },
 
-    buscarProducto: (req, res) => {
-        res.reender(path.resolve(__dirname, '...', '/views/reserve.ejs'));
-    },
+    search: (req, res) => {
+        res.render('buscarProducto')
+    }
 }
 
-module.['exports'] = controlador;
+module.exports = controller
