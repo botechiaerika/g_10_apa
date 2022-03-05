@@ -8,6 +8,9 @@ const controller = {
     contacto: (req, res) => {
         res.send("construccion");
     },
+    buscar: (req, res) => {
+        res.render("buscar");
+    },
 };
 
 module.exports = controller;

@@ -1,6 +1,11 @@
+const icons = {
+
+}
+
+
 const controller = {
     homeEmpresa: (req, res) => {
-        res.send("PAGINA EN CONSTRUCCION");
+        res.render('newFront')
     },
     cadastroEmpresa: (req, res) => {
         res.render("cadastroEmpresa");
