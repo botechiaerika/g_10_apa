@@ -2,7 +2,6 @@
     "name": "g_10_apa",
     "description": "proyecto APA AFTER NIGHT",
     "version": "1.0.0",
-
     "scripts": {
         "test": "npm run tests.js",
         "start": "nodemon ./src/app.js"
