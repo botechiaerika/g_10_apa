@@ -2,11 +2,10 @@
     "name": "g_10_apa",
     "description": "proyecto APA AFTER NIGHT",
     "version": "1.0.0",
-    "main": "set.app('view engine', 'ejs')",
 
     "scripts": {
         "test": "npm run tests.js",
-        "start": "nodemon app.js"
+        "start": "nodemon ./src/app.js"
     },
     "repository": {
         "type": "git",

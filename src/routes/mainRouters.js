@@ -1,21 +1,13 @@
-const mainControllers = require('../controllers/mainControllers');
+// ************ Require's ************
 const express = require('express');
 const router = express.Router();
 
-router.get('/', mainControllers.index);
-router.get('/home', mainControllers.home);
-router.get('/contacto', mainControllers.contacto);
+// ************ Controller Require ************
+const mainController = require('./../controllers/mainControllers');
+
+router.get('/', mainController.index);
+router.get('/home', mainController.home);
+router.get('/contacto', mainController.contacto);
+
 
 module.exports = router;
-
-/*var express = require('express');
-var router = express.Router();
-
-/* GET home page.
-router.get('/', function(req, res, next) {
-    res.render('index', { title: 'Express' });
-});
-router.get('/blog', function(req, res, next) {
-    res.render('blog');
-});
-module.exports = router; * /

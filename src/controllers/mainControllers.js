@@ -1,16 +1,13 @@
-const mainRouter = require('/routes/mainRoutes/router')
 const controller = {
     index: (req, res) => {
-        res.render('index')
+        res.render("index");
     },
-
     home: (req, res) => {
-        res.render('home')
+        res.render("home");
     },
+    contacto: (req, res) => {
+        res.send("construccion");
+    },
+};
 
-    search: (req, res) => {
-        res.render('buscarProducto')
-    }
-}
-
-module.exports = controller
+module.exports = controller;
