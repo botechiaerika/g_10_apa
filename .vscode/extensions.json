@@ -4,6 +4,8 @@
 		"tabnine.tabnine-vscode",
 		"anbuselvanrocky.bootstrap5-vscode",
 		"hansuxdev.bootstrap5-snippets",
-		"CoderFoundry.bootstrap-5-snippets-by-coder-foundry"
+		"coderfoundry.bootstrap-5-snippets-by-coder-foundry",
+		"eyhn.vscode-vibrancy",
+		"lehni.vscode-fix-checksums"
 	]
 }
