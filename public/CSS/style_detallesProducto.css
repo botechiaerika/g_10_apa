@@ -1,0 +1,76 @@
+.bg-square{
+    background-image: url("../images/svg/bg01_square.svg");
+    background-repeat: repeat;
+}
+
+.div-custom {
+    margin-top: 600px;
+   padding-bottom: 500px;
+}
+
+.product-img{
+    bg-opacity: 20;
+    padding: 1rem;
+    border: 3px solid transparent;
+    border-radius: 15px;
+}
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%
+}
+
+body {
+    background-color: #f9f9fa
+}
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding: 3rem
+}
+
+.owl-carousel .item {
+    margin: 3px
+}
+
+.owl-carousel .item img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.owl-carousel .item {
+    margin: 3px
+}
+
+.owl-carousel {
+    margin-bottom: 15px
+}
+
+.shoes-card {
+    width: 400px;
+    background: #ecedef;
+    padding: 40px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    border-radius: 15px;
+}

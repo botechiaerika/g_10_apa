@@ -13,9 +13,7 @@ router.get('/buscar', mainController.buscar);
 router.get('/buscarProducto', mainController.buscarProducto);
 router.get('/detallesProducto', mainController.detallesProducto);
 router.get('/detalleProducto', mainController.detalleProducto);
-router.get('/loginUsuario', mainController.loginUsuario);
 router.get('/loginEmpresa', mainController.loginEmpresa);
-router.get('/miCuenta', mainController.miCuenta);
 router.get('/reservas', mainController.reservas);
 router.get('/tablePath' ,mainController.tablePath);
 

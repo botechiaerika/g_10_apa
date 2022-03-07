@@ -3,11 +3,11 @@ const express = require('express');
 const router = express.Router();
 
 // ************ Controller Require ************
-const mainController = require('./../controllers/mainControllers');
+const usuariosController = require('./../controllers/usuariosControllers.js');
 
-router.get('/', mainController.index);
-router.get('/home', mainController.home);
-router.get('/contacto', mainController.contacto);
+router.get('/', usuariosController.miCuenta);
+router.get('/home', usuariosController.home);
+router.get('/contacto', usuariosController.contacto);
 
 
 module.exports = router;

@@ -1,0 +1,1 @@
+const express=require("express"),path=require("path"),app=express();app.set("view engine","ejs"),app.set("views",path.join(__dirname,"/views"));const mainRouter=require("./routes/mainRouters.js");app.use("/",mainRouter),app.use(express.static(path.join(__dirname,"./../public"))),app.listen(process.env.PORT||9797,(()=>{console.log("CORRIENDO PORT 9797")})),module.exports=app;

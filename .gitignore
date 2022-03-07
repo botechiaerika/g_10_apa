@@ -1,3 +1,5 @@
 node_modules,
-vscode
-.gitattributes
+.vscode,
+.gitattributes,
+config.codekit3,
+build,

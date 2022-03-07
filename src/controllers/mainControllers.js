@@ -1,6 +1,9 @@
+/****************************COMENTARIOS CONTROLLER ******************/
+
+//res.render --> ENVIA PAGINA RENDERIZADA
 const controller = {
-    index: (req, res) => {
-        res.render("index");
+  index: (req, res) => {
+      res.render("index");
     },
     home: (req, res) => {
         res.render("home");
@@ -9,36 +12,35 @@ const controller = {
         res.send("contacto en construccion");
     },
     locales: (req, res) => {
-        res.render("newFront")
+        res.send("newFront")
     },
-     buscar: (req, res) => {
+    buscar: (req, res) => {
         res.render("buscar");
     },
-      buscarProducto: (req, res) => {
-        res.render("buscarProducto");
+    buscarProducto: (req, res) => {
+        res.render("buscar");
     },
-    detalleProducto: (req, res) =>{
+    detalleProducto: (req, res) => {
         res.render("detalleProducto");
     },
-    detallesProducto: (req, res)=>{
+    detallesProducto: (req, res) => {
         res.render("detallesProducto")
     },
-    loginUsuario: (req, res)=>{
-        res.render("loginUsuario")
+
+    cadastroUsuario: (req, res) => {
+        res.render("cadastroUsuarios")
     },
-    loginEmpresa: (req, res)=> {
+    loginEmpresa: (req, res) => {
         res.send("loginEmpresa en construccion")
     },
-    miCuenta: (req, res) => {
-        res.render("miCuenta")
-    },
-    reservas: (req , res ) => {
+
+    reservas: (req, res) => {
         res.render("reservas")
     },
-      tablePath: (req , res ) => {
+    tablePath: (req, res) => {
         res.render("tablePath")
     },
-        empresa: (req , res ) => {
+    empresa: (req , res ) => {
         res.send("empresa pagina construccion")
     }
 };
