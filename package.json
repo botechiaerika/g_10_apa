@@ -1,6 +1,7 @@
 {
     "name": "g_10_apa",
     "description": "proyecto APA AFTER NIGHT",
+    "main": "app.set('view engine', 'ejs')";
     "version": "1.0.0",
     "scripts": {
         "test": "npm run tests.js",
