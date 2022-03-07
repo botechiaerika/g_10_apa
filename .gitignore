@@ -3,3 +3,4 @@ node_modules,
 .gitattributes,
 config.codekit3,
 build,
+.idea

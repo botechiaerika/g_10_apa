@@ -3,9 +3,11 @@ const express = require('express');
 const router = express.Router();
 
 // ************ Controller Require ************
-const empresasControllers = require('./../controllers/empresasControllers');
+const empresasController = require('./../controllers/empresasControllers.js');
 
-router.get('/', empresasControllers.homeEmpresa);
-router.get('/cadastro', empresasControllers.cadastroEmpresa);
-
+router.get('/', empresasController.homeEmpresa)
+router.get('/cadastro', empresasController.cadastroEmpresas)
+router.get('/login', empresasController.loginEmpresa)
+router.get('/login/manager', empresasController.managerAccount)
+router.get('/login/boss', empresasController.bossAccount)
 module.exports = router;

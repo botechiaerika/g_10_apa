@@ -16268,6 +16268,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/public\/CSS\/style_homeBody.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/public\/CSS\/style_homeBody-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/public\/CSS\/style_index.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -16379,6 +16391,28 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/src\/controllers\/productosControllers.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/controllers\/productosControllers-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/controllers\/usuariosControllers.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/controllers\/usuariosControllers-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/src\/routes\/empresasRouters.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -16386,17 +16420,6 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/build\/src\/routes\/empresasRouters-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/src\/routes\/localesRouters.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/build\/src\/routes\/localesRouters-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -16423,17 +16446,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/src\/routes\/reservasRouters.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/build\/src\/routes\/reservasRouters-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/src\/routes\/usuariosRouters.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -16445,46 +16457,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/src\/views\/account.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/src\/views\/account.html",
-      "oF" : 0
-    },
-    "\/src\/views\/buscar.ejs" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/src\/views\/buscar.ejs",
-      "oF" : 0
-    },
-    "\/src\/views\/buscarP.ejs" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/src\/views\/buscarP.ejs",
-      "oF" : 0
-    },
-    "\/src\/views\/buscarProducto.ejs" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/src\/views\/buscarProducto.ejs",
-      "oF" : 0
-    },
-    "\/src\/views\/cadastroEmpresa.ejs" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/src\/views\/cadastroEmpresa.ejs",
-      "oF" : 0
-    },
     "\/src\/views\/cadastroUsuarios.ejs" : {
       "cB" : 0,
       "ft" : 8192,
@@ -16493,28 +16465,36 @@
       "oAP" : "\/build\/src\/views\/cadastroUsuarios.ejs",
       "oF" : 0
     },
-    "\/src\/views\/contacto.html" : {
+    "\/src\/views\/empresa\/boss.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/src\/views\/contacto.html",
+      "oAP" : "\/build\/src\/views\/empresa\/boss.html",
       "oF" : 0
     },
-    "\/src\/views\/detalleProducto.ejs" : {
+    "\/src\/views\/empresa\/cadastroEmpresa.ejs" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/src\/views\/detalleProducto.ejs",
+      "oAP" : "\/build\/src\/views\/empresa\/cadastroEmpresa.ejs",
       "oF" : 0
     },
-    "\/src\/views\/detallesProducto.ejs" : {
+    "\/src\/views\/empresa\/loginEmpresa.ejs" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/src\/views\/detallesProducto.ejs",
+      "oAP" : "\/build\/src\/views\/empresa\/loginEmpresa.ejs",
+      "oF" : 0
+    },
+    "\/src\/views\/empresa\/manager.ejs" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/views\/empresa\/manager.ejs",
       "oF" : 0
     },
     "\/src\/views\/home.ejs" : {
@@ -16533,28 +16513,12 @@
       "oAP" : "\/build\/src\/views\/index.ejs",
       "oF" : 0
     },
-    "\/src\/views\/loginUsuario.ejs" : {
+    "\/src\/views\/landingEmpresa.ejs" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/src\/views\/loginUsuario.ejs",
-      "oF" : 0
-    },
-    "\/src\/views\/miCuenta.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/src\/views\/miCuenta.html",
-      "oF" : 0
-    },
-    "\/src\/views\/newFront.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/src\/views\/newFront.html",
+      "oAP" : "\/build\/src\/views\/landingEmpresa.ejs",
       "oF" : 0
     },
     "\/src\/views\/pages\/homeBody.ejs" : {
@@ -16597,12 +16561,52 @@
       "oAP" : "\/build\/src\/views\/partials\/navbar.ejs",
       "oF" : 0
     },
-    "\/src\/views\/reservas.ejs" : {
+    "\/src\/views\/productos\/buscar.ejs" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/src\/views\/reservas.ejs",
+      "oAP" : "\/build\/src\/views\/productos\/buscar.ejs",
+      "oF" : 0
+    },
+    "\/src\/views\/productos\/buscarP.ejs" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/views\/productos\/buscarP.ejs",
+      "oF" : 0
+    },
+    "\/src\/views\/productos\/buscarProducto.ejs" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/views\/productos\/buscarProducto.ejs",
+      "oF" : 0
+    },
+    "\/src\/views\/productos\/detalleProducto.ejs" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/views\/productos\/detalleProducto.ejs",
+      "oF" : 0
+    },
+    "\/src\/views\/productos\/detallesProducto.ejs" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/views\/productos\/detallesProducto.ejs",
+      "oF" : 0
+    },
+    "\/src\/views\/productos\/reservas.ejs" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/views\/productos\/reservas.ejs",
       "oF" : 0
     },
     "\/src\/views\/tablepath.ejs" : {
@@ -16611,6 +16615,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/src\/views\/tablepath.ejs",
+      "oF" : 0
+    },
+    "\/src\/views\/usuarios\/account.ejs" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/views\/usuarios\/account.ejs",
+      "oF" : 0
+    },
+    "\/src\/views\/usuarios\/loginUsuario.ejs" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/views\/usuarios\/loginUsuario.ejs",
       "oF" : 0
     }
   },

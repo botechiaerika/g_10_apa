@@ -1,7 +1,5 @@
 // ************ Require's ************
-
 const express = require('express');
-
 const path = require('path');
 
 
@@ -15,19 +13,15 @@ app.set('views', path.join(__dirname, '/views'));
 
 // ************ Route System require and use() ************
 const mainRouter = require('./routes/mainRouters.js');
-const usuariosRouter = require('./routes/usuariosRouters.js')
-// const empresasRouter = require('./routes/empresasRouters.js')
-    // const localesRouter = require('./routes/localesRouters.js');
-    // const productosRouters = require('./routes/productosRouters.js');
-    // const reservasRouter = require('./routes/reservasRouters.js')
-
+const usuariosRouter = require('./routes/usuariosRouters.js');
+const productosRouter = require('./routes/productosRouters.js');
+const empresasRouter = require('./routes/empresasRouters.js')
 
 app.use('/', mainRouter);
-app.use('/usuarios');
-// //app.use('/empresas', empresasRouter);
-// app.use('/locales', localesRouter);
-// app.use('/productos', productosRouters);
-// app.use('/reservas', reservasRouter);
+app.use('/usuarios', usuariosRouter);
+app.use('/productos' , productosRouter);
+app.use('/empresas', empresasRouter);
+
 
 
 app.use(express.static(path.join(__dirname,'./../public')));
