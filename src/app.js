@@ -21,6 +21,7 @@ app.use('/', mainRouter);
 app.use('/usuarios', usuariosRouter);
 app.use('/productos' , productosRouter);
 app.use('/empresas', empresasRouter);
+app.use('/locales' , productosRouter);
 
 
 
@@ -29,4 +30,4 @@ app.use(express.static(path.join(__dirname,'./../public')));
 app.listen(process.env.PORT || 9797, () => {
     console.log("CORRIENDO PORT 9797");
 });
-module.exports = app;
+module.exports
